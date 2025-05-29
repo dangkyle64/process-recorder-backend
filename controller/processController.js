@@ -13,3 +13,5 @@ class ProcessController {
         };
     };
 };
+
+export default ProcessController;

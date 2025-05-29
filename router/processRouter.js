@@ -1,9 +1,10 @@
 import express from 'express';
-// import controller
+
+import { processController } from '../controller/initializeController.js';
 
 const router = express.Router();
 
-//router.get
+router.get('/process', processController.getAllProcesses.bind(processController));
 //router.get
 //router.post
 //router.put
